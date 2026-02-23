@@ -1,0 +1,10 @@
+even_count <- function(x) {
+  count <- 0
+  for(i in x) {
+    if(i %% 2 == 0) {
+      count <- count + 1
+    }
+  }
+  return(count)
+}
+print(even_count(1:20))
